@@ -1,0 +1,13 @@
+@mixin flex($value){
+    if ($value<=320px){
+        background-color: red;
+    }else if ($value<=580px) {
+        background-color: yellow;
+    }else if ($value<=780px) {
+        background-color: green;
+    }else if ($value<=1024px) {
+        background-color: blue;
+    }else if ($value<=1200px) {
+        background-color: purple;
+    }
+}
